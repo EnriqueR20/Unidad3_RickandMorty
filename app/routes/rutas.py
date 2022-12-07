@@ -52,7 +52,7 @@ def insert_personajes():
 
 #Usamos el range donde especificamos la lista de capitulos a insertar en la BD
 #EL API Consta de 51 CAPITULOS por eso usamos un IF donde si supera el valor no muestra un mensaje
-#Consideramos registar 21 capitulos para este ejercicio
+#Consideramos registrar 14 capitulos para este ejercicio
 #Tal y como sugiere la diapositiva solo mostramos los PERSONAJES,type,dimension
 
 @bp_nombres.route("/insertc")
